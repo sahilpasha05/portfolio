@@ -8,7 +8,7 @@ const Projects = () => {
       description: 'A responsive weather web app that provides real-time weather information for any city worldwide.',
       technologies: ['HTML', 'CSS', 'Javascript'],
       liveDemo: 'https://benevolent-hamster-897919.netlify.app/',
-      github: 'https://github.com/sahilpasha20',
+      github: 'https://github.com/sahilpasha05',
       type: 'weather'
     }
   ];
