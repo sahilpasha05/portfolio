@@ -51,7 +51,7 @@ const Hero = () => {
   };
 
   const handleGithubClick = () => {
-    window.open('https://github.com/sahilpasha5', '_blank');
+    window.open('https://github.com/sahilpasha05', '_blank');
   };
 
   return (
