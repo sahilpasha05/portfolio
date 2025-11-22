@@ -29,7 +29,7 @@ const Projects = () => {
           <li>Created admin panel for managing products, pricing & orders</li>
           <li>Optimized UI for mobile-first users & fast loading</li>
           <li><b>Unique Feature:</b> Used phone verification system</li>
-          <li><b>Impact:</b> 100+ processed <b>|</b> Price quote in 3s <b>|</b> Improved customer trust</li>
+          <li><b>Impact:</b> 100+ Request processed in just 1 month <b>|</b> Price quote in 3s <b>|</b> Improved customer trust</li>
         </ul>
       ),
     },
