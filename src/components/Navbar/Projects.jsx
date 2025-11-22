@@ -29,7 +29,33 @@ const Projects = () => {
           <li>Created admin panel for managing products, pricing & orders</li>
           <li>Optimized UI for mobile-first users & fast loading</li>
           <li><b>Unique Feature:</b> Used phone verification system</li>
-          <li><b>Impact:</b> 100+ Requets processed in one month  <b>|</b> Price quote in 3s <b>|</b> Improved customer trust</li>
+          <li><b>Impact:</b> 100+ processed <b>|</b> Price quote in 3s <b>|</b> Improved customer trust</li>
+        </ul>
+      ),
+    },
+    {
+      title: 'BangaloreCab – Online Cab Booking Platform (Freelance Project)',
+      description:
+        'Developed a cab booking website that allows users to book airport, local, and outstation rides with real-time pricing and booking confirmation.',
+      technologies: ['React.js'],
+      liveDemo: 'https://bangalorecab.com/',
+      github: '',
+      type: 'cab',
+      preview: () => (
+        <div className="h-48 flex items-center justify-center p-4 rounded-3xl overflow-hidden">
+          <img
+            src="/ksk.jpg"
+            alt="BangloreCab preview"
+            className="w-full h-full rounded-3xl object-cover shadow-2xl"
+          />
+        </div>
+      ),
+      details: (
+        <ul className="list-disc ml-5 mt-2 text-gray-600 text-sm">
+          <li>Designed and developed responsive frontend with booking flow</li>
+          <li>Client didn’t need admin panel; all bookings sent directly to WhatsApp</li>
+          <li>Optimized website for mobile users and fast loading</li>
+          <li><b>Impact:</b> Handled 50+ booking inquiries in first month</li>
         </ul>
       ),
     },
@@ -43,7 +69,6 @@ const Projects = () => {
       preview: () => (
         <div className="h-48 flex items-center justify-center p-4 rounded-3xl overflow-hidden">
           <div className="bg-gradient-to-br from-cyan-400 via-teal-500 to-blue-600 rounded-3xl p-6 max-w-sm mx-auto text-white shadow-2xl transform scale-75">
-            {/* WEATHER CARD CONTENT */}
             <div className="bg-white bg-opacity-90 rounded-full px-4 py-3 mb-6 flex items-center">
               <span className="text-gray-600 flex-1 text-sm">Bengaluru</span>
               <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">

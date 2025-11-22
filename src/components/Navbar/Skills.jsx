@@ -3,63 +3,70 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Front End",
+      title: "Programming Languages",
       skills: [
         { 
           name: "JavaScript", 
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-          bgColor: "bg-yellow-500"
-        },
-        { 
-          name: "React.js", 
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-          bgColor: "bg-blue-500"
         },
         { 
           name: "HTML", 
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-          bgColor: "bg-orange-500"
         },
         { 
           name: "CSS", 
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-          bgColor: "bg-blue-600"
+        }
+      ]
+    },
+    {
+      title: "Frameworks & Libraries",
+      skills: [
+        { 
+          name: "React.js", 
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         },
         { 
           name: "Tailwind CSS", 
           icon: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
-          bgColor: "bg-teal-500"
         }
       ]
     },
-    // Removed the "Databases" category
+    {
+      title: "Backend & Databases",
+      skills: [
+        { 
+          name: "Supabase", 
+          icon: "https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg",
+        },
+        { 
+          name: "PostgreSQL", 
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        }
+      ]
+    },
     {
       title: "Tools & Platforms",
       skills: [
         { 
           name: "GitHub", 
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-          bgColor: "bg-gray-800"
         },
         { 
           name: "VS Code", 
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-          bgColor: "bg-blue-500"
         },
         { 
           name: "Figma", 
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-          bgColor: "bg-purple-500"
         },
         { 
           name: "Vercel", 
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
-          bgColor: "bg-gray-900"
         },
         { 
           name: "Netlify", 
           icon: "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg",
-          bgColor: "bg-teal-600"
         }
       ]
     }
@@ -105,7 +112,6 @@ const Skills = () => {
                           {skill.name.charAt(0)}
                         </div>
                       </div>
-                      
                       <div className="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-gray-400 transition-all duration-300"></div>
                     </div>
 

@@ -11,11 +11,10 @@ const About = () => {
         <div className="max-w-3xl mx-auto">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 leading-relaxed">
-             I am a highly motivated and detail-oriented Bachelor of Computer Applications (BCA), with a deep passion for web development, problem-solving, and technology innovation. Skilled in HTML, CSS, JavaScript, and React, I am eager to apply my knowledge to real-world projects and grow into a successful software engineer.
+             I am a highly motivated and detail-oriented Bachelor of Computer Applications (BCA) graduate with a strong passion for web development, problem-solving, and technology innovation. Skilled in HTML, CSS, JavaScript, React.js and Tailwind CSS, I enjoy building real-world applications that deliver smooth and user-friendly experiences.
+I am eager to apply my skills in a professional environment, continue learning, and grow into a successful software engineer.
              </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open source projects.
-            </p>
+            
           </div>
         </div>
       </div>

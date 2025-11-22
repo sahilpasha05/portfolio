@@ -32,9 +32,13 @@ const Experience = () => {
           <p className="text-xl md:text-2xl mb-4 text-gray-700">
             Professional Journey & Achievements
           </p>
-          <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
-            Building innovative solutions and growing through diverse challenges in the tech industry
+          <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto mb-6">
+            Building innovative solutions and growing through diverse challenges in the tech industry.
           </p>
+          <div className="text-base text-gray-700 max-w-2xl mx-auto">
+            Worked with multiple freelance clients on various projects as a freelancer.
+            You can check the <span className="font-semibold text-purple-600">featured projects below</span> for details about some of my work.
+          </div>
         </div>
       </div>
     </section>
